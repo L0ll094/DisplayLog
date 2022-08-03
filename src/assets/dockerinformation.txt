@@ -1,0 +1,6 @@
+CONTAINER ID   IMAGE                      COMMAND                  CREATED         STATUS       PORTS                                                           NAMES
+5d7bae55778a   spintest_backend_220714    "/start_spintest_bac…"   10 days ago     Up 10 days   0.0.0.0:5000->5000/tcp, :::5000->5000/tcp                       spintest_backend_container
+de5609a86fc2   spintest_frontend_220714   "/docker-entrypoint.…"   13 days ago     Up 13 days   0.0.0.0:9000->80/tcp, :::9000->80/tcp                           spintest_frontend_container
+7dae08659025   fieldview_lic              "/app/lic/lic_start"     15 months ago   Up 3 weeks   0.0.0.0:1722-1723->1722-1723/tcp, :::1722-1723->1722-1723/tcp   fieldview_lic
+27366bde8f7d   maple_lic                  "/app/lic/lic_start"     20 months ago   Up 3 weeks   0.0.0.0:1720-1721->1720-1721/tcp, :::1720-1721->1720-1721/tcp   maple_lic
+6986cd15bcba   comsol_lic                 "/app/lic/lic_start"     20 months ago   Up 3 weeks   0.0.0.0:1718-1719->1718-1719/tcp, :::1718-1719->1718-1719/tcp   comsol_lic

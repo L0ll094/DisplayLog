@@ -1,0 +1,73 @@
+
+.my-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:stretch;
+    max-width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px;
+}
+.my-header{
+    color: green;
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    
+}
+.my-title{
+    font-size: xx-large;
+    padding: 20px;
+    
+
+    color: rgb(224, 88, 170);
+    display: inherit;
+    text-align: center;
+    flex-direction: inherit;
+    justify-content: inherit;
+}
+.my-subtitle{
+    text-align: center;
+    color: rgb(49, 54, 24);
+    font-size: large;
+}
+.my-image{
+    max-width: 40%;
+    align-self: center;
+
+}
+.my-content{
+    color: blue;
+    display: inherit;
+    text-align: center;
+    flex-direction:column;
+    justify-content: space-evenly;
+    font-family: inherit;
+    flex-wrap:wrap;
+    align-items: center;
+    font-size: large;
+}
+.my-label{
+
+    color: black;
+}
+.my-form-field{
+    color: rgb(106, 224, 70);
+    max-width: 40%;
+
+}
+.my-footer{
+
+    color: rgb(209, 120, 31);
+}
+.my-card-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    min-height: 50px;
+    min-width: 150px;
+}
+.my-button{
+    font-size: medium;
+}
