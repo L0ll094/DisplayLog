@@ -52,8 +52,9 @@
 
 }
 .my-footer{
-
-    color: rgb(209, 120, 31);
+    padding-top:30px;
+    color: black;
+    text-align: center;
 }
 .my-card-actions{
     display: flex;
@@ -65,4 +66,22 @@
 }
 .my-button{
     font-size: medium;
+}
+.status-div{
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+.space-adding-minor{
+    padding:10px;
 }

@@ -22,6 +22,7 @@ export class ViewLogComponent implements OnInit {
   selectedContainerName: string= "";
   selectedContainerStatus: string="";
   containerChosen:Boolean = false;
+  debugMode:Boolean=true;
   oneContainer_Control = new FormControl<Container | null>(null, Validators.required);
   selectFormControl = new FormControl('', Validators.required);
   containers: Container[] = [
@@ -34,6 +35,12 @@ export class ViewLogComponent implements OnInit {
 
   ngOnInit(): void {
     this.readAndParseFile();
+    if (this.debugMode) {
+      this.containerChosen=true;
+      this.selectedContainerName="Laban"
+      this.selectedContainerStatus="Spooky"
+
+    }
   }
 
   clickedButton(): void {

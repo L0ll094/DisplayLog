@@ -30,9 +30,11 @@
 
   <button mat-raised-button class="my-button" (click)="clickedButton()">Show Status</button>
 </mat-card-actions>
-  <div *ngIf="containerChosen">
+  <div class="status-div" *ngIf="containerChosen">
+    <div class="space-adding-minor"></div>
     {{selectedContainerName}} has status:
     <br> {{selectedContainerStatus}}
+    <div class="space-adding-minor"></div>
   </div>
 <mat-card-footer class="my-footer">
   For issues with the linux cluster, contact Olle Karlsson at olle.karlsson@alfalaval.com
