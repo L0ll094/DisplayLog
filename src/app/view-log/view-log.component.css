@@ -9,7 +9,6 @@
     padding:20px;
 }
 .my-header{
-    color: green;
     display: inherit;
     flex-direction: inherit;
     justify-content: inherit;
@@ -20,24 +19,20 @@
     padding: 20px;
     
 
-    color: rgb(224, 88, 170);
+    color: black;
     display: inherit;
     text-align: center;
     flex-direction: inherit;
     justify-content: inherit;
 }
-.my-subtitle{
-    text-align: center;
-    color: rgb(49, 54, 24);
-    font-size: large;
-}
+
 .my-image{
     max-width: 40%;
     align-self: center;
 
 }
 .my-content{
-    color: blue;
+    color: black;
     display: inherit;
     text-align: center;
     flex-direction:column;
@@ -45,7 +40,7 @@
     font-family: inherit;
     flex-wrap:wrap;
     align-items: center;
-    font-size: large;
+    font-size: 14pt;
 }
 .my-label{
 
@@ -53,7 +48,7 @@
 }
 .my-form-field{
     color: rgb(106, 224, 70);
-    max-width: 40%;
+    min-width:30%;
 
 }
 .my-footer{

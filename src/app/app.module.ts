@@ -7,10 +7,7 @@ import { ViewLogComponent } from './view-log/view-log.component';
 
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import{MatSliderModule} from '@angular/material/slider';
 
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
 
 
 import { RouterModule,Routes } from '@angular/router';
@@ -48,6 +45,12 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { FormsModule } from '@angular/forms';
+import {MatDividerModule} from '@angular/material/divider';
+import{MatSliderModule} from '@angular/material/slider';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+
+
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
@@ -59,6 +62,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 
   ],
   imports: [
+    MatDividerModule,
     ReactiveFormsModule,
     BrowserModule,
     AppRoutingModule,
