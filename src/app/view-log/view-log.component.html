@@ -12,6 +12,8 @@
   <a>Some web services are run on the HSS R&D Technology's linux cluster inside docker containers.</a>
   <br>
   <a>Here you can perform a quick health check on these by asking for the status of the containers.</a>
+  <br>
+  <a>The status is updated every day at midnight.</a>
   </p>
   <mat-form-field  appearance="fill" class="my-form-field">
     
@@ -29,13 +31,17 @@
 <mat-card-actions class="my-card-actions">
 
   <button mat-raised-button class="my-button" (click)="clickedButton()">Show Status</button>
+  
 </mat-card-actions>
+
   <div class="status-div" *ngIf="containerChosen">
     <div class="space-adding-minor"></div>
     {{selectedContainerName}} has status:
     <br> {{selectedContainerStatus}}
     <div class="space-adding-minor"></div>
   </div>
+
+
 <mat-card-footer class="my-footer">
   For issues with the linux cluster, contact Olle Karlsson at olle.karlsson@alfalaval.com
 </mat-card-footer>

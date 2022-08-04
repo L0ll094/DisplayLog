@@ -22,7 +22,7 @@ export class ViewLogComponent implements OnInit {
   selectedContainerName: string= "";
   selectedContainerStatus: string="";
   containerChosen:Boolean = false;
-  debugMode:Boolean=true;
+  debugMode:Boolean=false;
   oneContainer_Control = new FormControl<Container | null>(null, Validators.required);
   selectFormControl = new FormControl('', Validators.required);
   containers: Container[] = [
